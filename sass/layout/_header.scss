@@ -1,0 +1,21 @@
+.header{
+    padding: 2.5rem 0;
+    background-color: $header-footer-bg;
+    &__container{
+        @include container($width);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+    }
+    &__item:not(:last-child){
+        margin-right: 4rem;
+    }
+    &__item--link{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: $white-color;
+    }
+}

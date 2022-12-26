@@ -1,0 +1,68 @@
+.layout{
+    padding: 8.9rem 0 8rem;
+    background-color: $site-bg-color;
+    &__container{
+        @include container($width);
+    }
+    &__wrapper{
+        width: 503px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    &__title{
+        font-size: 3.1rem;
+        line-height: 3.6rem;
+        margin-bottom: 1.1rem;
+        color:$text-color-333 ;
+    }
+    &__text{
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color:$text-color-333;
+        margin-bottom: 4rem;
+    }
+    &__img{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    &__img--subimg{
+        font-size: 1.2rem;
+        line-height: 2.1rem;
+        color: $subimg-color;
+    }
+
+    &__list{
+        display: flex;
+        padding: .75rem 1.5rem 1.25rem;
+    }
+    &__item{
+        width: 364px;
+        text-align: center;
+        padding: 3rem 4rem 3.1rem;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+        background-color: $white-color;
+    }
+    &__item:not(:last-child){
+        margin-right: 3rem;
+    }
+    &__item--title{
+        font-size: 1.8rem;
+        margin-bottom: 3.1rem;
+        color: $text-color-333;
+    }
+    &__item--img{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 4rem;
+    }
+    &__item--text{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    span{
+        background-color: rgba(0, 0, 255, 0.628);
+    }
+}

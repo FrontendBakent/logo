@@ -1,0 +1,15 @@
+.brands{
+    padding: 4rem 0;
+    background-color: $brands-bg-color;
+    &__container{
+        @include container($width);
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        padding: 1.2rem 1rem;
+    }
+    &__item:not(:last-child){
+        margin-right: 6.7rem;
+    }
+}

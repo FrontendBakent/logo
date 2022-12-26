@@ -1,0 +1,51 @@
+.hero{
+    padding: 6.7rem 0;
+    background-color: $site-bg-color;
+    &__container{
+        @include container($width);
+        display: flex;
+        align-items: center;
+    }
+    &__wrapper{
+        width: 576px;
+        padding: 1.8rem 2.5rem 0 0;
+    }
+    &__wrapper--title{
+        font-size: 3.9rem;
+        line-height: 4.5rem;
+        margin-bottom: 1.1rem;
+        color: $text-color-333;
+    }
+    &__wrapper--text{
+        font-size: 1.7rem;
+        line-height: 2.6rem;
+        margin-bottom: 3rem;
+        color: $text-color-333;
+    }
+    &__wrapper--link{
+        padding: 1.5rem 2.5rem;
+        background-color: $white-color;
+        color: $text-color-black;
+    }
+
+    &__img--wrapper{
+        width: 576px;
+    }
+    &__img--img{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2.3rem;
+        box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.2);
+    }
+    &__text--wrapper{
+        width: 320px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    &__wrapper--info{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

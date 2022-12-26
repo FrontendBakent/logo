@@ -1,0 +1,12 @@
+.webflow{
+    padding: 1.5rem 0;
+    background-color: #111111;
+    &__container{
+        @include container($width);
+    }
+    &__text{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: $subimg-color;
+    }
+}
